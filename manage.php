@@ -10,7 +10,7 @@
 <body>
 <?php
  
-$conn = mysql_connect("localhost", "root", "fantom1979");
+$conn = mysql_connect("localhost", "root", "111111");
 mysql_query('SET NAMES utf8');
 if (!$conn) {
     echo "Unable to connect to DB: " . mysql_error();
