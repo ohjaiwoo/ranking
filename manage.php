@@ -17,7 +17,7 @@ if (!$conn) {
     exit;
 }
  
-if (!mysql_select_db("joyappkorea")) {
+if (!mysql_select_db("joyappkorea_ranking")) {
     echo "Unable to select mydbname: " . mysql_error();
     exit;
 }
